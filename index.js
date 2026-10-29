@@ -557,4 +557,19 @@ if (choice === "0" || choice === null) {
             "0 — Завершить игру"
         );
 
+        if (choice === "0" || choice === null) {
+            break;
+        } else if (choice === "1") {
+            if (
+                inventory.includes("вербена") &&
+                inventory.includes("клинок охотника") &&
+                inventory.includes("защитный амулет")
+            ) {
+                if (
+                    inventory.includes("старая фотография") &&
+                    inventory.includes("дневник охотника") &&
+                    inventory.includes("осколок зеркала") &&
+                    inventory.includes("старый документ")
+                ) {
+
 }
