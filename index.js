@@ -315,4 +315,19 @@ if (choice === "0" || choice === null) {
             "0 — Завершить игру"
         );
 
+
+        if (choice === "0" || choice === null) {
+            break;
+        } else if (choice === "1") {
+            room = "спальня Стефана";
+        } else if (choice === "2") {
+            room = "главный холл";
+        } else if (choice === "3") {
+            showInventory();
+        } else {
+            alert("Такого прохода нет.");
+        }
+    }
+
+
 }
